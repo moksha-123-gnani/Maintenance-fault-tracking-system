@@ -1,0 +1,145 @@
+/* ===== GENERAL ===== */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    background-color: #0f172a; /* dark blue */
+    color: #e5e7eb;
+}
+
+/* ===== HEADER ===== */
+header {
+    background: linear-gradient(90deg, #1e3a8a, #2563eb);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+header p {
+    margin: 5px 0 0;
+    color: #c7d2fe;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+    width: 90%;
+    margin: 30px auto;
+}
+
+/* ===== BUTTONS ===== */
+a.button {
+    background-color: #22c55e;
+    color: #022c22;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+a.button:hover {
+    background-color: #16a34a;
+}
+
+/* ===== TABLE ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #020617;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+th {
+    background-color: #1e293b;
+    padding: 12px;
+    color: #93c5fd;
+    font-size: 14px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #1e293b;
+}
+
+tr:hover {
+    background-color: #020617;
+}
+
+/* ===== STATUS COLORS ===== */
+.status-working {
+    color: #22c55e;
+    font-weight: bold;
+}
+
+.status-maintenance {
+    color: #facc15;
+    font-weight: bold;
+}
+
+/* ===== LINKS ===== */
+a.action {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a.action:hover {
+    text-decoration: underline;
+}
+
+/* ===== FORMS ===== */
+form {
+    background-color: #020617;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 30px auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #60a5fa;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: none;
+}
+
+input {
+    background-color: #020617;
+    border: 1px solid #1e293b;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #2563eb;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e40af;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #64748b;
+    font-size: 13px;
+}
